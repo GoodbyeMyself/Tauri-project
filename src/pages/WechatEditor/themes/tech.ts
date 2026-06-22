@@ -1,0 +1,32 @@
+import type { WechatTheme } from './index'
+
+export const techTheme: WechatTheme = {
+  name: '科技',
+  id: 'tech',
+  codeTheme: 'atom-one-dark',
+  styles: {
+    base: 'font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", sans-serif; font-size: 15px; color: #c9d1d9; line-height: 1.8; word-break: break-word; background: #0d1117;',
+    h1: 'font-size: 26px; font-weight: 700; color: #58a6ff; margin: 1.2em 0 0.6em; padding: 8px 16px; background: rgba(56,139,253,0.1); border-radius: 6px; border-left: 4px solid #58a6ff;',
+    h2: 'font-size: 20px; font-weight: 700; color: #79c0ff; margin: 1em 0 0.5em; padding-bottom: 0.3em; border-bottom: 1px solid #21262d;',
+    h3: 'font-size: 17px; font-weight: 600; color: #d2a8ff; margin: 0.8em 0 0.4em;',
+    h4: 'font-size: 15px; font-weight: 600; color: #c9d1d9; margin: 0.6em 0 0.3em;',
+    h5: 'font-size: 14px; font-weight: 600; color: #8b949e; margin: 0.5em 0 0.3em;',
+    h6: 'font-size: 13px; font-weight: 600; color: #8b949e; margin: 0.5em 0 0.3em;',
+    p: 'margin: 0.8em 0; line-height: 1.8; color: #c9d1d9;',
+    strong: 'font-weight: 700; color: #58a6ff;',
+    em: 'font-style: italic; color: #8b949e;',
+    del: 'text-decoration: line-through; color: #484f58;',
+    a: 'color: #58a6ff; text-decoration: none;',
+    blockquote: 'margin: 1em 0; padding: 10px 16px; border-left: 4px solid #3b82f6; background: #161b22; color: #8b949e;',
+    code: 'background: #161b22; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #79c0ff; font-family: "SF Mono", "Fira Code", Menlo, Consolas, monospace; border: 1px solid #30363d;',
+    pre: 'background: #161b22; padding: 16px; border-radius: 8px; border: 1px solid #30363d; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 1em 0; font-family: "SF Mono", "Fira Code", Menlo, Consolas, monospace; color: #c9d1d9;',
+    ul: 'margin: 0.8em 0; padding-left: 2em; color: #c9d1d9;',
+    ol: 'margin: 0.8em 0; padding-left: 2em; color: #c9d1d9;',
+    li: 'margin: 0.3em 0; line-height: 1.8;',
+    img: 'max-width: 100%; border-radius: 6px; margin: 0.8em 0; border: 1px solid #30363d;',
+    table: 'width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 14px;',
+    th: 'border: 1px solid #30363d; padding: 8px 12px; background: #161b22; font-weight: 600; text-align: left; color: #79c0ff;',
+    td: 'border: 1px solid #30363d; padding: 8px 12px; text-align: left; color: #c9d1d9;',
+    hr: 'border: none; border-top: 1px solid #21262d; margin: 1.5em 0;',
+  },
+}

@@ -1,0 +1,31 @@
+import type { WechatTheme } from './index'
+
+export const elegantTheme: WechatTheme = {
+  name: '优雅',
+  id: 'elegant',
+  styles: {
+    base: 'font-family: "Georgia", "Songti SC", "SimSun", serif; font-size: 15px; color: #2c2c2c; line-height: 2; word-break: break-word;',
+    h1: 'font-size: 26px; font-weight: 700; color: #1a1a1a; margin: 1.4em 0 0.6em; text-align: center; padding-bottom: 0.4em; border-bottom: 2px solid #06c160;',
+    h2: 'font-size: 20px; font-weight: 700; color: #1a1a1a; margin: 1.2em 0 0.5em; padding-bottom: 0.3em; border-bottom: 1px solid #e8f5e9;',
+    h3: 'font-size: 17px; font-weight: 600; color: #2c2c2c; margin: 1em 0 0.4em;',
+    h4: 'font-size: 15px; font-weight: 600; color: #444; margin: 0.8em 0 0.3em;',
+    h5: 'font-size: 14px; font-weight: 600; color: #555; margin: 0.6em 0 0.3em;',
+    h6: 'font-size: 13px; font-weight: 600; color: #666; margin: 0.5em 0 0.3em;',
+    p: 'margin: 0.8em 0; line-height: 2; text-indent: 0;',
+    strong: 'font-weight: 700; color: #06c160;',
+    em: 'font-style: italic; color: #666;',
+    del: 'text-decoration: line-through; color: #aaa;',
+    a: 'color: #06c160; text-decoration: none; border-bottom: 1px dashed #06c160;',
+    blockquote: 'margin: 1em 0; padding: 12px 20px; border-left: 4px solid #06c160; background: linear-gradient(to right, #f0fdf4, #fff); color: #555; font-style: italic;',
+    code: 'background: #f0fdf4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; color: #1B8C3E; font-family: "SF Mono", Menlo, Consolas, monospace;',
+    pre: 'background: #fafffe; padding: 16px; border-radius: 8px; border: 1px solid #e8f5e9; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 1em 0; font-family: "SF Mono", Menlo, Consolas, monospace;',
+    ul: 'margin: 0.8em 0; padding-left: 2em;',
+    ol: 'margin: 0.8em 0; padding-left: 2em;',
+    li: 'margin: 0.4em 0; line-height: 2;',
+    img: 'max-width: 100%; border-radius: 8px; margin: 1em 0; box-shadow: 0 2px 12px rgba(0,0,0,0.08);',
+    table: 'width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 14px;',
+    th: 'border: 1px solid #e8f5e9; padding: 10px 14px; background: #f0fdf4; font-weight: 600; text-align: left; color: #1B8C3E;',
+    td: 'border: 1px solid #e8f5e9; padding: 10px 14px; text-align: left;',
+    hr: 'border: none; height: 1px; background: linear-gradient(to right, transparent, #06c160, transparent); margin: 2em 0;',
+  },
+}

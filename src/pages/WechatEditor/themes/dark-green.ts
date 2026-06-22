@@ -1,0 +1,31 @@
+import type { WechatTheme } from './index'
+
+export const darkGreenTheme: WechatTheme = {
+  name: '墨绿',
+  id: 'dark-green',
+  styles: {
+    base: 'font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", sans-serif; font-size: 15px; color: #2d3436; line-height: 1.8; word-break: break-word;',
+    h1: 'font-size: 24px; font-weight: 700; color: #1B8C3E; margin: 1.2em 0 0.6em; padding-left: 14px; border-left: 5px solid #1B8C3E;',
+    h2: 'font-size: 20px; font-weight: 700; color: #1B8C3E; margin: 1em 0 0.5em; padding: 6px 14px; background: #f0fdf4; border-radius: 6px;',
+    h3: 'font-size: 17px; font-weight: 600; color: #06c160; margin: 0.8em 0 0.4em; padding-left: 10px; border-left: 3px solid #06c160;',
+    h4: 'font-size: 15px; font-weight: 600; color: #4FBF7F; margin: 0.6em 0 0.3em;',
+    h5: 'font-size: 14px; font-weight: 600; color: #6bc98b; margin: 0.5em 0 0.3em;',
+    h6: 'font-size: 13px; font-weight: 600; color: #88d4a4; margin: 0.5em 0 0.3em;',
+    p: 'margin: 0.8em 0; line-height: 1.8;',
+    strong: 'font-weight: 700; color: #1B8C3E;',
+    em: 'font-style: italic; color: #636e72;',
+    del: 'text-decoration: line-through; color: #b2bec3;',
+    a: 'color: #06c160; text-decoration: none; border-bottom: 1px solid #a8e6cf;',
+    blockquote: 'margin: 1em 0; padding: 12px 18px; border-left: 4px solid #06c160; background: #f0fdf4; color: #555; border-radius: 0 6px 6px 0;',
+    code: 'background: #f0fdf4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; color: #1B8C3E; font-family: "SF Mono", Menlo, Consolas, monospace; border: 1px solid #dcfce7;',
+    pre: 'background: #f0fdf4; padding: 16px; border-radius: 8px; border: 1px solid #dcfce7; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 1em 0; font-family: "SF Mono", Menlo, Consolas, monospace;',
+    ul: 'margin: 0.8em 0; padding-left: 2em;',
+    ol: 'margin: 0.8em 0; padding-left: 2em;',
+    li: 'margin: 0.3em 0; line-height: 1.8;',
+    img: 'max-width: 100%; border-radius: 6px; margin: 0.8em 0; border: 1px solid #dcfce7;',
+    table: 'width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 14px;',
+    th: 'border: 1px solid #dcfce7; padding: 10px 14px; background: #f0fdf4; font-weight: 600; text-align: left; color: #1B8C3E;',
+    td: 'border: 1px solid #dcfce7; padding: 10px 14px; text-align: left;',
+    hr: 'border: none; height: 1px; background: linear-gradient(to right, #dcfce7, #06c160, #dcfce7); margin: 1.5em 0;',
+  },
+}

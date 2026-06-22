@@ -1,0 +1,31 @@
+import type { WechatTheme } from './index'
+
+export const defaultTheme: WechatTheme = {
+  name: '简约',
+  id: 'default',
+  styles: {
+    base: 'font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; color: #333; line-height: 1.8; word-break: break-word;',
+    h1: 'font-size: 24px; font-weight: 700; color: #1a1a1a; margin: 1.2em 0 0.6em; padding-bottom: 0.3em; border-bottom: 1px solid #eee;',
+    h2: 'font-size: 20px; font-weight: 700; color: #1a1a1a; margin: 1em 0 0.5em;',
+    h3: 'font-size: 17px; font-weight: 600; color: #333; margin: 0.8em 0 0.4em;',
+    h4: 'font-size: 15px; font-weight: 600; color: #444; margin: 0.6em 0 0.3em;',
+    h5: 'font-size: 14px; font-weight: 600; color: #555; margin: 0.5em 0 0.3em;',
+    h6: 'font-size: 13px; font-weight: 600; color: #666; margin: 0.5em 0 0.3em;',
+    p: 'margin: 0.8em 0; line-height: 1.8;',
+    strong: 'font-weight: 700; color: #36AD6A;',
+    em: 'font-style: italic;',
+    del: 'text-decoration: line-through; color: #999;',
+    a: 'color: #576b95; text-decoration: none; border-bottom: 1px solid #576b95;',
+    blockquote: 'margin: 1em 0; padding: 10px 16px; border-left: 4px solid #ddd; background: #f9f9f9; color: #666;',
+    code: 'background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; color: #d14; font-family: "SF Mono", Menlo, Consolas, monospace;',
+    pre: 'background: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 1em 0; font-family: "SF Mono", Menlo, Consolas, monospace;',
+    ul: 'margin: 0.8em 0; padding-left: 2em;',
+    ol: 'margin: 0.8em 0; padding-left: 2em;',
+    li: 'margin: 0.3em 0; line-height: 1.8;',
+    img: 'max-width: 100%; border-radius: 4px; margin: 0.8em 0;',
+    table: 'width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 14px;',
+    th: 'border: 1px solid #ddd; padding: 8px 12px; background: #f6f8fa; font-weight: 600; text-align: left;',
+    td: 'border: 1px solid #ddd; padding: 8px 12px; text-align: left;',
+    hr: 'border: none; border-top: 1px solid #eee; margin: 1.5em 0;',
+  },
+}
